@@ -1,51 +1,51 @@
-# Cursor Rules
+# Regras do Cursor
 
-## User Rules
+## Regras do Usuário
 
 Cursor->Settings->User Rules
 
 ```
-# Rules
+# Regras
 
-## Coding pattern preferences
-- Variables and comments generated for the code must always and exclusively be in English, regardless of the language used in the prompts,
-- Alwats follow the variable naming conventions of the language in use.
-- Always prefer simple solutions
-- Avoid duplication of code whenever possible, which means checking for other areas of the codebase that might already have similar code and functionality
-- Write code that takes into account the different environments: dev, test, and prod
-- You are careful to only make changes that are requested or you are confident are well understood and related to the change being requested
-- When fixing an issue or bug, do not introduce a new pattern or technology without first exhausting all options for the existing implementation. And if you finally do this, make sure to remove the old implementation afterwards so we don't have duplicate logic.
-- Keep the codebase very clean and organized
-- Avoid writing scripts in files if possible, especially if the script is likely only to be run once
-- Avoid having files over 200–300 lines of code. Refactor at that point.
-- Mocking data is only needed for tests, never mock data for dev or prod environments
-- Never add stubbing or fake data patterns to code that affects the dev or prod environments
-- Never overwrite my .env file without first asking and confirming
-- In the chat and explanations Brazilian Portuguese must always be used
-- All commit messages must adhere to Conventional Commits (https://www.conventionalcommits.org/).
+## Preferências de padrão de codificação
+- Variáveis e comentários gerados para o código devem sempre e exclusivamente estar em inglês, independentemente da linguagem usada nos prompts,
+- Sempre siga as convenções de nomenclatura de variáveis da linguagem em uso.
+- Sempre prefira soluções simples
+- Evite a duplicação de código sempre que possível, o que significa verificar outras áreas do código que possam já ter código e funcionalidade semelhantes
+- Escreva código que leve em conta os diferentes ambientes: dev, test e prod
+- Tenha cuidado para fazer apenas alterações solicitadas ou das quais você tenha certeza de que são bem compreendidas e relacionadas à alteração solicitada
+- Ao corrigir um problema ou bug, não introduza um novo padrão ou tecnologia sem primeiro esgotar todas as opções para a implementação existente. E se finalmente fizer isso, certifique-se de remover a implementação antiga posteriormente para não termos lógica duplicada.
+- Mantenha o código muito limpo e organizado
+- Evite escrever scripts em arquivos sempre que possível, especialmente se o script provavelmente será executado apenas uma vez
+- Evite ter arquivos com mais de 200–300 linhas de código. Refatore nesse ponto.
+- Dados mock são necessários apenas para testes, nunca mocke dados para ambientes dev ou prod
+- Nunca adicione padrões de stubbing ou dados falsos ao código que afeta os ambientes dev ou prod
+- Nunca sobrescreva meu arquivo .env sem antes perguntar e confirmar
+- No chat e nas explicações, o português brasileiro deve sempre ser usado
+- Todas as mensagens de commit devem seguir o Conventional Commits (https://www.conventionalcommits.org/).
 
-## Conding workflow preferences
-- Focus on the areas of code relevant to the task
-- Do not touch code that is unrelated to the task
-- Write thorough tests for all major functionality
-- Avoid making major changes to the patterns and architecture of how a feature works, after it has shown to work well, unless explicitly instructed
-- Always think about what other methods and areas of code might be affected by code changes
+## Preferências de fluxo de codificação
+- Foque nas áreas do código relevantes para a tarefa
+- Não toque em código que não esteja relacionado à tarefa
+- Escreva testes abrangentes para toda a funcionalidade principal
+- Evite fazer alterações significativas nos padrões e na arquitetura de como uma funcionalidade funciona, após ela ter demonstrado funcionar bem, a menos que explicitamente instruído
+- Sempre pense em quais outros métodos e áreas do código podem ser afetados pelas alterações no código
 ```
 
-## Project rules
+## Regras do Projeto
 
 Cursor->Settings->Project Rules
 
-### Stacks
+### Pilhas
 
-#### Exemple Python Stack
+#### Exemplo de Pilha Python
 
 ```
-Python for the backend
-html/js for the frontend
-SQL databases, never JSON file storage
-Separate databases for dev, test, and prod
-Elasticsearch for search, using elastic.co hosting
-Elastic.co will have dev and prod indexes
-Python tests
+Python para o backend
+html/js para o frontend
+Bancos de dados SQL, nunca armazenamento em arquivos JSON
+Bancos de dados separados para dev, test e prod
+Elasticsearch para busca, usando hospedagem elastic.co
+Elastic.co terá índices dev e prod
+Testes em Python
 ```
