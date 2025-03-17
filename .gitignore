@@ -1,0 +1,42 @@
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de ambiente e configuração local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios de dependências
+node_modules/
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de build
+dist/
+build/
+*.tsbuildinfo
+
+# Arquivos de configuração de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Outros arquivos temporários
+.tmp/
+temp/ 
