@@ -5,7 +5,7 @@
 Cursor->Settings->User Rules
 
 ```
-# Regras
+# Regras Base
 
 ## Preferências de padrão de codificação
 - Variáveis e comentários gerados para o código devem sempre e exclusivamente estar em inglês, independentemente da linguagem usada nos prompts,
