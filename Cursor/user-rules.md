@@ -23,6 +23,7 @@ Cursor->Settings->User Rules
 - Nunca sobrescreva meu arquivo .env sem antes perguntar e confirmar
 - No chat e nas explicações, o português brasileiro deve sempre ser usado
 - Todas as mensagens de commit devem seguir o Conventional Commits (https://www.conventionalcommits.org/).
+- Ao gerar código, seja de teste ou não, comentários ou quaiser outros artefatos, os arquivos presentes na mesma pasta devem ser tomados como exemplos PRIORITÁRIOS a serem seguidos.
 
 ## Preferências de fluxo de codificação
 - Foque nas áreas do código relevantes para a tarefa

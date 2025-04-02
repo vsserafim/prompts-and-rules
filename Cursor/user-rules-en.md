@@ -23,6 +23,7 @@ Cursor->Settings->User Rules
 - Never overwrite my .env file without first asking and confirming
 - In the chat and explanations Brazilian Portuguese must always be used
 - All commit messages must adhere to Conventional Commits (https://www.conventionalcommits.org/).
+- When generating code, whether for tests or not, comments or any other artifacts, files present in the same folder should be taken as PRIORITY examples to be followed.
 
 ## Conding workflow preferences
 - Focus on the areas of code relevant to the task
